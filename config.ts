@@ -3,10 +3,10 @@ export const config = {
   apiUrl: process.env.API_URL,
   apiWard: process.env.API_WARD,
   wardAddress: {
-    street: "8137 Echo View Dr",
+    street: "8107 S 6700 W",
     city: "West Jordan",
     zip: "84081",
-    mapUrl: "https://goo.gl/maps/JcJ3M5VN5ZAGUTWT7",
+    mapUrl: "https://maps.app.goo.gl/o44HE2BvxPsEka1ZA",
   },
   apiHeaders: {
     headers: {
