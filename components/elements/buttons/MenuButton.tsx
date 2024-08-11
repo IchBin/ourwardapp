@@ -74,7 +74,7 @@ const LinkMenuItem = ({ label, url, external }) => {
             {label.text}
           </a>
         ) : (
-          <Link href={url}>
+          <Link href={url} legacyBehavior={true}>
             <a className={`text-gray-700 hover:bg-gray-100 hover:text-gray-900 ${styles}`}>{label.text}</a>
           </Link>
         )
